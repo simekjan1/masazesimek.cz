@@ -188,3 +188,31 @@
     columns: 1;
   }
 }
+
+/* Dočasné oznámení na úvodní stránce */
+
+.home-announcement {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.home-announcement__card {
+  max-width: 52rem;
+  margin-inline: auto;
+}
+
+.home-announcement__card > p:not(.eyebrow) {
+  color: var(--color-muted);
+}
+
+.home-announcement .content-details {
+  margin-top: 1.5rem;
+}
+
+.home-announcement .detail-content {
+  padding-top: 1.25rem;
+}
+
+.home-announcement + .quick-links {
+  margin-top: 0;
+}
